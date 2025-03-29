@@ -50,6 +50,7 @@ p{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     background-color: rgba(187, 106, 164, 0.5);
     margin: 15px 0;
@@ -64,8 +65,9 @@ h2{
 
 .col2{
  border: 1px solid rgb(173, 119, 11);
- width: 40%;
+ width: 450px;
  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+ padding: 20px;
     
 }
 
@@ -73,5 +75,18 @@ h2{
     width: 45%;
     margin:auto;
     display: block;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gallery img{
+    width: 210px;
+    border-radius: 20px;
+
 }
 
