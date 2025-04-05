@@ -33,6 +33,30 @@ header, footer{
     align-items: center;
     gap: 30px;
 }
+nav{
+    
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+nav a{
+    text-decoration: none;
+    box-shadow: 5px 5px 5px rgba(163, 109, 27, 0.5);
+    background-color: rgba(10, 10, 10, 0.5);
+    color: rgb(204, 166, 77);
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+   justify-content: center;
+    
+}
+nav a:hover{
+    background-color: rgba(0,0,0,0.7);
+    color: rgb(253, 253, 253);
+    transition: 0.8s;
+    transform:scale(1.1);
+}
 
 .logo{
     width: 110px;
@@ -65,15 +89,25 @@ h2{
 
 .col2{
  border: 1px solid rgb(173, 119, 11);
- width: 450px;
+ width: 588px;
  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
  padding: 20px;
     
 }
-
+.col3{
+    border: 1px solid rgb(173, 119, 11);
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(173, 119, 11);
+    padding: 20px;
+}
 .col2 img{
-    width: 45%;
+    width: 50%;
     margin:auto;
+    display: block;
+}
+.col2 .lightimage{
+    width: 100%;
+    margin: auto;
     display: block;
 }
 .gallery{
@@ -88,5 +122,23 @@ h2{
     width: 210px;
     border-radius: 20px;
 
+}
+
+.imagen{
+    width: 25%;
+    margin: auto;
+
+   
+}
+.imagen:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: sepia();
+}
+.imagen img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(173, 119, 11);
+  
+    
 }
 
