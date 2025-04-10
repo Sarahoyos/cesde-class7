@@ -141,4 +141,21 @@ h2{
   
     
 }
-
+.pictures
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pictures img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(173, 119, 11);
+}
+.pictures img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: sepia();
+}
